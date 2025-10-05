@@ -1,0 +1,29 @@
+Channel ID: 2928777
+Author: mwa0000037612828
+Access: Private
+
+==============================
+
+Write API Key = 16FCSO4YK6LKRO3G
+Read API Keys = OPCGQSJYVPJENO2F
+
+==============================
+
+API Requests
+Write a Channel Feed
+GET https://api.thingspeak.com/update?api_key=16FCSO4YK6LKRO3G&field1=0
+
+Read a Channel Feed
+GET https://api.thingspeak.com/channels/2928777/feeds.json?api_key=OPCGQSJYVPJENO2F&results=10
+
+Read a Channel Field
+GET https://api.thingspeak.com/channels/2928777/fields/1.json?api_key=OPCGQSJYVPJENO2F&results=2
+
+Read Channel Status Updates
+GET https://api.thingspeak.com/channels/2928777/status.json?api_key=OPCGQSJYVPJENO2F
+
+==============================
+
+write direct : https://api.thingspeak.com/update?api_key=16FCSO4YK6LKRO3G&field1=40&field2=50
+
+

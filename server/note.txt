@@ -1,0 +1,47 @@
+GET /save?id=abc123&fieldName=status&fieldVal=online
+{
+  "deviceId": "abc123",
+  "data": {
+    "status": "online"
+  }
+}
+
+
+
+/save?id=abc123&fieldName=temperature&fieldVal=30
+"data": {
+  "status": "online",
+  "temperature": "30"
+}
+
+GET /fetch?id=abc123
+
+{
+  "deviceId": "abc123",
+  "data": {
+    "status": "online",
+    "temperature": "30"
+  },
+  "createdAt": "...",
+  "updatedAt": "..."
+}
+
+
+
+===========================================
+
+Save:
+GET /save?id=9062300500&fieldName=status&fieldVal=online
+
+Fetch:
+GET /fetch?id=9062300500
+
+===========================================
+Save:
+https://luggagetracking.vercel.app/save?id=9062300500&fieldName=status&fieldVal=online
+
+Fetch:
+https://luggagetracking.vercel.app/fetch?id=9062300500
+
+
+http://odd-term-748c.soumojitshome2021.workers.dev/fetch?id=9062300500
